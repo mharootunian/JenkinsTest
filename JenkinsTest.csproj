@@ -31,20 +31,28 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="PX.Common">
-      <HintPath>..\..\..\..\Bin\PX.Common.dll</HintPath>
+    <Reference Include="PX.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\PX.Common.dll</HintPath>
     </Reference>
-    <Reference Include="PX.Common.Std">
-      <HintPath>..\..\..\..\Bin\PX.Common.Std.dll</HintPath>
+    <Reference Include="PX.Common.Std, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\PX.Common.Std.dll</HintPath>
     </Reference>
-    <Reference Include="PX.CS.Contracts">
-      <HintPath>..\..\..\..\Bin\PX.CS.Contracts.dll</HintPath>
+    <Reference Include="PX.CS.Contracts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\PX.CS.Contracts.dll</HintPath>
     </Reference>
-    <Reference Include="PX.Data">
-      <HintPath>..\..\..\..\Bin\PX.Data.dll</HintPath>
+    <Reference Include="PX.Data, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\PX.Data.dll</HintPath>
     </Reference>
-    <Reference Include="PX.Objects">
-      <HintPath>..\..\..\..\Bin\PX.Objects.DLL</HintPath>
+    <Reference Include="PX.Objects, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\PX.Objects.dll</HintPath>
+    </Reference>
+    <Reference Include="PX.Objects.FS">
+      <HintPath>lib\PX.Objects.FS.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
