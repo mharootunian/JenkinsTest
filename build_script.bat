@@ -1,0 +1,1 @@
+call "CustomizationPackageTools\CustomizationPackageTools.exe" build --customizationpath "C:\dev\Acumatica ERP\devJenkins1\App_Data\Projects\JenkinsTest\JenkinsTest\customization" --packagefilename "jenkinsTestPackage.zip" --description "Jenkins CICD Test Project"
